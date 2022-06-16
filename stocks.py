@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import yfinance as yf
+from yfinance import yfinance as yf
 from datetime import date
 
 st.title('Crypto Price Watch By Wai Lyan Pyae <<Simbolo Batch-5>>')
